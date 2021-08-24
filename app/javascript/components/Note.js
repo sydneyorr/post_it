@@ -3,7 +3,9 @@ import React from 'react'
 const Note = (props) => {
   return (
   <div>
-    <p>{props.note.title}</p>
+    <h1>{props.note.title}</h1>
+    <h1>{props.note.description}</h1>
+    <a href="/">Notes</a>
   </div>
   );
 };
